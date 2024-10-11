@@ -1,5 +1,7 @@
 import readlineSync from 'readline-sync';
 
+export const getRandom = limit => Math.floor(Math.random() * limit);
+
 const countRound = 3;
 
 export default (description, getQuestionAndAnswer) => {
