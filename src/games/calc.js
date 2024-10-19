@@ -3,9 +3,9 @@ import game, { getRandom } from '../index.js';
 const description = 'What is the result of the expression?';
 
 const getQuestionAndAnswer = () => {
-  const num1 = getRandom(100);
-  const num2 = getRandom(100);
-  const operation = getRandom(3);
+  const num1 = getRandom(1, 100);
+  const num2 = getRandom(1, 100);
+  const operation = getRandom(1, 3);
   let result = 0;
   let mathOpr = '';
   switch (operation) {

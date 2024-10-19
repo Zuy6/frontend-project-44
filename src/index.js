@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export const getRandom = limit => Math.floor(Math.random() * limit);
+export const getRandom = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const countRound = 3;
 
