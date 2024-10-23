@@ -22,5 +22,5 @@
 Суть игры в следующем: пользователь определяет является ли число простым или нет.
 **Пример игры:** [brain-prime](https://asciinema.org/a/piqGHTkTnpVSXAQ966fkUMNBk)
 
-Инструкция по установке и запуску игр [install](https://asciinema.org/a/65yKPRLqIaJK9Kg1AJ7bSUk2M)
+# Инструкция по установке и запуску игр [install](https://asciinema.org/a/65yKPRLqIaJK9Kg1AJ7bSUk2M)
 Для глобальной установки пакета из локальной директории используйте команду npm link. Её необходимо запускать из корневой директории проекта.
