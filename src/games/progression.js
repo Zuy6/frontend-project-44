@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import game, { getRandom } from '../index.js';
 
 const description = 'What number is missing in the progression?';

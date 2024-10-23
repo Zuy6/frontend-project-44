@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import game, { getRandom } from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
