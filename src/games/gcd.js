@@ -5,8 +5,10 @@ const description = 'Find the greatest common divisor of given numbers.';
 const getNOD = (x, y) => (!y ? x : getNOD(y, x % y));
 
 const getQuestionAndAnswer = () => {
-  const num1 = getRandom(1, 100);
-  const num2 = getRandom(1, 100);
+  const min = 1;
+  const max = 100;
+  const num1 = getRandom(min, max);
+  const num2 = getRandom(min, max);
   const isGCD = getNOD(num1, num2);
 
   const question = `${num1} ${num2}`;
