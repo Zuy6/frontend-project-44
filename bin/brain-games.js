@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import isHelloQuest from '../src/cli.js';
+import getHelloQuest from '../src/cli.js';
 
-isHelloQuest();
+getHelloQuest();
